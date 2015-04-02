@@ -1,0 +1,2 @@
+# gakha
+Tibetan translation tool
