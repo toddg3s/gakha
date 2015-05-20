@@ -45,23 +45,22 @@
     <Compile Include="Annotation.cs" />
     <Compile Include="Extensions.cs" />
     <Compile Include="gakhaObject.cs" />
+    <Compile Include="interfaces\ICache.cs" />
+    <Compile Include="interfaces\IConverter.cs" />
+    <Compile Include="interfaces\ITextReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sentence.cs" />
     <Compile Include="Syllable.cs" />
     <Compile Include="SyllableEnumerator.cs" />
     <Compile Include="SyllableGroup.cs" />
+    <Compile Include="SyllableTreeNode.cs" />
     <Compile Include="Text.cs" />
+    <Compile Include="Tools.cs" />
     <Compile Include="Translator.cs" />
     <Compile Include="Word.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\gakha.common\gakha.common.csproj">
-      <Project>{5891b76a-9186-4d5f-88b0-26ca5e6b3546}</Project>
-      <Name>gakha.common</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -17,5 +17,6 @@ namespace gakha.models
 
         public string Written { get { return Get<string>("Written"); } set { Set<string>("Written", value); } }
 
+        public LinkedList<Sentence> Sentences { get; set; }
     }
 }
